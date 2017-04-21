@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/mainLogoMargin"
+    android:orientation="vertical"
+    tools:context=".AdressActivity">
+
+    <ImageView
+        android:layout_width="@dimen/sizeMap"
+        android:layout_height="@dimen/sizeMap"
+        android:src="@drawable/address_map"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:gravity="center"
+        android:textSize="@dimen/sizeAdress"
+        android:textColor="@color/colorNameSalon"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sizeTextService"
+        android:text="@string/address_desc"
+        android:textColor="@color/colorNameSalon"/>
+
+</LinearLayout>

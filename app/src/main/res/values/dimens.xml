@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainLogoMargin">15dp</dimen>
+    <dimen name="widthMainLogo">120dp</dimen>
+    <dimen name="heightMainLogo">150dp</dimen>
+    <dimen name="widthItemMainMenu">70dp</dimen>
+    <dimen name="heightItemMainMenu">100dp</dimen>
+    <dimen name="widthImageService">50dp</dimen>
+    <dimen name="heightImageService">71dp</dimen>
+    <dimen name="sizeTextService">19sp</dimen>
+    <dimen name="sizeMap">300dp</dimen>
+    <dimen name="sizeAdress">25sp</dimen>
+    <dimen name="widthServiceDesc">270dp</dimen>
+    <dimen name="heightServiceDesc">400dp</dimen>
+</resources>

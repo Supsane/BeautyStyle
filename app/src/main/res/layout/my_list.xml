@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/mainLogoMargin">
+
+    <ImageView
+        android:id="@+id/imageService"
+        android:layout_width="@dimen/widthImageService"
+        android:layout_height="@dimen/heightImageService"
+        android:layout_marginEnd="@dimen/mainLogoMargin"
+        android:layout_marginRight="@dimen/mainLogoMargin" />
+
+    <TextView
+        android:id="@+id/nameService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/colorNameSalon"
+        android:textSize="@dimen/sizeTextService" />
+</LinearLayout>

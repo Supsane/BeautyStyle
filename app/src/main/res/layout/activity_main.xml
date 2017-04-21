@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chashurinevgeny.beautystyle.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mainLogoMargin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/widthMainLogo"
+            android:layout_height="@dimen/heightMainLogo"
+            android:background="@color/colorBackground"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/style_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/mainLogoMargin"
+            android:text="@string/nameMainLogo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/colorNameSalon"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/hair"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/mainLogoMargin"
+                android:layout_marginRight="@dimen/mainLogoMargin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/widthItemMainMenu"
+                    android:layout_height="@dimen/heightItemMainMenu"
+                    android:contentDescription="@string/hairText"
+                    android:src="@drawable/hair" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mainLogoMargin"
+                    android:text="@string/hairText"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorNameSalon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/mainLogoMargin"
+                android:layout_marginRight="@dimen/mainLogoMargin"
+                android:layout_marginTop="@dimen/mainLogoMargin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/widthItemMainMenu"
+                    android:layout_height="@dimen/heightItemMainMenu"
+                    android:contentDescription="@string/nailText"
+                    android:src="@drawable/nail" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mainLogoMargin"
+                    android:text="@string/nailText"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorNameSalon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/mainLogoMargin"
+                android:layout_marginRight="@dimen/mainLogoMargin"
+                android:layout_marginTop="@dimen/mainLogoMargin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/widthItemMainMenu"
+                    android:layout_height="@dimen/heightItemMainMenu"
+                    android:contentDescription="@string/address"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/mainLogoMargin"
+                    android:text="@string/address"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/colorNameSalon" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
