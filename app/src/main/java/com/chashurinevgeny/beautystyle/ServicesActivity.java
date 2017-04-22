@@ -17,7 +17,7 @@ public class ServicesActivity extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_services);
+        setContentView(R.layout.fragment_services);
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             int nom = bundle.getInt(EXTRA_NOM);
